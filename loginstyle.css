@@ -23,12 +23,14 @@ body{
 .loginbox p{
     margin: 0;
     padding: 0;
+    text-align: center;
     font-weight: bold;
 }
 
 .loginbox input{
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
+    transform: translate(12.5%, 0%);
 }
 
 .loginbox input[type="text"], input[type="password"]{
@@ -50,9 +52,26 @@ body{
     font-size: 18px;
 }
 
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #00FFFF;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 7.5%;
+}
+
+.loginbox a:hover{
+    color: #6a0dad;
+}
+
 h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
-    color: red;
+    color: #0000FF;
 }
