@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Review Manager</title>
+	<style>
+		body
+		{
+     background-image: url('29972168-line-seamless-pattern-can-be-used-for-website-background-and-greating-cards-or-cover-decoration.jpg');
+		}
+
+		h2.heading2
+		{
+			text-align: center;
+			color: blue;
+		}
+
+		div.pdf
+		{
+			width: 500px;
+			height:500px;
+			padding: 3px 0;
+			border: 3px solid black;
+			line-height: 500px;
+			background-color: white;
+			text-align: center;
+		}
+
+		div.column
+		{
+			width: 31.55%;
+			float: left;
+			padding: 10px;
+			height: 300px;
+		}
+		div.row:after{
+
+            content: "";
+            display: table;
+            clear: all;
+		}
+
+		p.paragraph
+		{
+			text-align: center;
+			line-height: 200px;
+
+		}
+
+
+	</style>
+</head>
+<body>
+
+      <h1 style="text-align: center;">Uwindsor Conference 2019</h1>
+      <h2 class="heading2">Final Review Page</h2>
+
+      <div class="pdf"><b>Research Paper</b></div>
+      <br>
+      <div class="row">
+      	<div class="column" style="background-color: #aaa">
+      		<h2 style="text-align: center;">First Review</h2>
+      		<p class="paragraph">Review From 1st Rivewer</p>
+      	</div>
+      	<div class="column" style="background-color: #bbb">
+      		<h2 style="text-align: center;">Second Rivewer</h2>
+      		<p class="paragraph">Review From 2nd Rivewer</p>
+      	</div>
+      	<div class="column" style="background-color: #ccc">
+      		<h2 style="text-align: center;">Third Review</h2>
+      		<p class="paragraph">Review From 3rd Rivewer</p>
+      	</div>
+      </div>
+
+      <button type="button" onclick="alert('Final Review Submitted')">Accept</button>
+      <button type="button" onclick="alert('Final Review Submitted')">Decline</button>
+
+</body>
+</html>
