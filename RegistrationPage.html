@@ -8,9 +8,10 @@
     body
     {
     
-    background-image: url(download3.png);  <!--- Picture --->
-    padding: 500px, 500px;
-    background-repeat: repeat;
+        background-image: url(download3.png);  <!--- Picture --->
+        padding: 0;
+        background-repeat: repeat;
+        font-family: sans-serif;
     
     }
 
@@ -34,50 +35,86 @@
            background-color: Dodgerblue;
       }
 
-      h3.heading4
+      h1.heading2
       {
-         font-size: 200%;
-         border: ridge;
-         color: yellow;
-         background-color: Dodgerblue;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0 0 2px;
+        font-size: 22px;
       }
 
-      p.visa
+      div.form
       {
-        font-size: 150%;
+        width: 320px;
+        height: 400px;
+        color: black;
+        top: 65%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-image: url('avatar.jpg');
+        padding: 70px, 30px;
+      }
 
+      .form p
+      {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+      }
+
+      .form input 
+      {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .form input[type="text"], input[type="password"]
+      {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        font-size: 16px;
+        color: white;
+      }
+
+      .form input[type="submit"]
+      {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
       }
              
 	</style>
 </head>
 <body>
 
-
-	<h1 style="color: white;"><u> Registration </u></h1>
-
 	<h2 class="heading">Uwindsor Conference 2019 Registration</h2>
 	<p class="p1"><i><b>Online Registration opens on 24th December, 2019</b></i></p>
 	
 
 	<h3 class="heading1">Instructions</h3>
-         <ul>
-         	<li style="color: white;">Step 1 put your first & last name</li>
-         	<li style="color: white;">Step 2 create a password(password must have one capital & small letter and one special charecter such as #,$,%,&,*)</li>
-         	<li style="color: white;">Step 3 Confirm your password</li>
-         	<li style="color: white;">Then after creating your account, use the username and password to log in</li>
-         </ul>
-
-    <h3 style="color: white;">Conference Registration includes:</h3>
-             <ul>
-             	<li style="color: white;"><b>Conference booklet</b></li>
-             	<li style="color: white;"><b>Participation</b> in the 5-day conference (December 3, 4, 5, 6 and 7)</li>
-             	<li style="color: white;"><b>Participation</b> in the AnalytiCup Finals (December 5)</li>
-             	<li style="color: white;"><b>Lunch and coffee breaks</b>during the 3-day main conference (December 4, 5 and 6)</li>
-             	<li style="color: white;"><b>Coffee breaks</b> on the tutorial day (December 3)</li>
-             	<li style="color: white;"><b>Coffee breaks</b> on the workshop day (December 7)</li>
-             	<li style="color: white;"><b>Welcome reception</b> on December 4</li>
-             	<li style="color: white;"><b>Banquet</b> on December 5</li>
-             </ul>
+  <br>
+  <div class="form">
+    <h1 class="heading2">Register Here</h1>
+    <p style="color: white;">Enter First Name</p>
+    <input type="text" name="" placeholder="First Name">
+    <p style="color: white;">Enter Last Name</p>
+    <input type="text" name="" placeholder="Last Name">
+    <p style="color: white;">Enter Password</p>
+    <input type="Password" name="" placeholder="Enter Password">
+    <p style="color: white;">Confirm Password</p>
+    <input type="Password" name="" placeholder="Re-enter Password">
+    <input type="submit" name="" value="login">
+    <br>
+    <a href="#" style="color: white;">Already Have An Account!</a>
+  </div>
                   
 </body>
 </html>
