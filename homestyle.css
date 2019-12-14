@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     color: #fff;
-    background: #000;
+    background: #232323;
 }
 
 .Banner{
@@ -14,7 +14,7 @@ body{
 .tab{
     width: 100%;
     height: 16px;
-    background: #0000FF;
+    background: #0939D6;
 }
 
 .tab a{
@@ -61,17 +61,17 @@ p{
 
 h1{
     margin: 1%; 
-    color: #0000FF;
+    color: #0939D6;
 }
 
 h2{
     margin: 1%; 
-    color: #0000FF;
+    color: #0939D6;
 }
 
 h3{
     margin: 1%; 
-    color: #0000FF;
+    color: #0939D6;
 }
 
 ul{
